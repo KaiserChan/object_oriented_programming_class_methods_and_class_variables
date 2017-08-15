@@ -28,11 +28,13 @@ class BankAccount
   end
 
 #instance variables below ----------
+
+
+#instance methods below ----------
   def initialize
     @balance = 0
   end
 
-#instance methods below ----------
   def balance
     @balance
   end
