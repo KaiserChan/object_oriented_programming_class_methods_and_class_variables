@@ -116,8 +116,8 @@ book3 = Book.create("Orignals", "Adam Grant", "520")
 puts book1.lent_out?
 puts book1.borrow
 #
-puts book1.lent_out?
-puts book1.borrow
+puts book1.lent_out? # this doesn't return the desired result?
+puts book1.borrow    # this doens't return the desired result? (circular reference?)
 #
 puts book1.due_date
 #
